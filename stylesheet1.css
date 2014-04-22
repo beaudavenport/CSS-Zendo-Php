@@ -1,0 +1,73 @@
+body {
+	background-image: url('http://fc06.deviantart.net/fs36/i/2008/281/4/b/Bamboo_carpet__tiled_by_JayL_stock.jpg');
+}
+#contentWrapper {
+	width: 340px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 20px;
+	-moz-box-shadow:    3px 3px 5px 6px black;
+  	-webkit-box-shadow: 3px 3px 5px 6px black;
+  	box-shadow:         3px 3px 5px 6px black;
+}
+#bigTitle {
+	width: 360px;
+	margin: 0 auto;
+	font-family: 'Carter One', cursive;
+	font-size: 2em;
+	color: white;
+}
+#viewWindow {
+	width: 300px;
+	height: 250px;
+	border: 2px solid black;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	position: relative;
+}
+#spacer {
+	height: 100px;
+}
+#bottomSpacer {
+	height: 100px;
+}
+#left {
+	height: 100px;
+	width: 20px;
+	background-color: red;
+	float: left;	
+}
+#right {
+	height: 100px;
+	width: 20px;
+	background-color: blue;
+	float: right;
+}
+#element {
+	color: white;
+	background-color: black;
+	width: 30px;
+	height: 50px;
+}
+#inputBox {
+	width: 280px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-family: courier;
+}
+#command {
+	color: red;
+	font-family: courier;
+}
+#enter {
+	font-family: courier;
+}
+#messageBox {
+	width: 300px;
+	height: 200px;
+	border: 1px solid black;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+#message {
+}
