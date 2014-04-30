@@ -1,5 +1,14 @@
 $(document).ready(function() {
-	$("#enter").click(function(){
+	//welcome message
+	
+	//get user clicked name
+	$('.gameDiv').click(function() {
+		var divName = "#" + $(this).attr('id') + " {";
+		$("#elementID").text(divName);	
+	});
+	
+	//apply user input
+	$("#enter").click(function() {
 		var input = $("#command").val();
 		var selectors = input.split(":"); 
 		alert(selectors[0]);
@@ -16,6 +25,11 @@ $(document).ready(function() {
 		{
 			alert("You won!");
 		}
+	});
+	
+	//check input for proper syntax
+	$("#command").keyup(function(event) {
+		alert(event.keyCode);
 	});
 });
 
